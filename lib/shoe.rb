@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << @brand unless @brand == brand 
+    BRANDS << @brand unless @brand.include? == brand 
   end
 
   def cobble
@@ -14,7 +14,4 @@ class Shoe
     puts "Your shoe is as good as new!"
   end 
   
-end
-
-color = "blue"
-
+So maybe you could use that here? to see if the brand is already inside the BRANDS array?
