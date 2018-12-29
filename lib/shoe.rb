@@ -14,4 +14,3 @@ class Shoe
     puts "Your shoe is as good as new!"
   end 
   
-# So maybe you could use that here? to see if the brand is already inside the BRANDS array?
