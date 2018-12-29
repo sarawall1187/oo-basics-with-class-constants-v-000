@@ -18,4 +18,3 @@ end
 
 color = "blue"
 
-puts "How pretty!" unless color == "chartreuse"
