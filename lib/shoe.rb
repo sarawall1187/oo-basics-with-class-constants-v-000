@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    unless @brand == BR 
+    puts "How pretty!" unless @brand == brand 
   end
 
   def cobble
