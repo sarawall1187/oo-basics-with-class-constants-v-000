@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     unique_brand = []
-   brand 
+    BRANDS << brand unless brand ==  
   end
 
   def cobble
@@ -16,3 +16,7 @@ class Shoe
   end 
   
 end
+
+color = "blue"
+
+puts "How pretty!" unless color == "chartreuse"
