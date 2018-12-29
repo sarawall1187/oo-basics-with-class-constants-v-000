@@ -6,7 +6,6 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    unique_brand = []
     BRANDS << brand unless brand == brand  
   end
 
